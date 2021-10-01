@@ -17,4 +17,9 @@ public class BankService {
         //withdraw amount
         return 0;
     }
+    
+    public long getBalance(String accountNo) {
+        //get balance details
+        return 0;
+    }
 }
