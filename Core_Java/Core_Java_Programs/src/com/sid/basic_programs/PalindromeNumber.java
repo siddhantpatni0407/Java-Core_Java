@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 public class PalindromeNumber 
 {
+	@SuppressWarnings("resource")
 	public static void main(String args[]) 
 	{
 		int n, originalNumber, r, sum = 0, temp;

@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 public class PrimeNumber 
 {
+	@SuppressWarnings("resource")
 	public static void main(String args[]) 
 	{
 		int n, i, m = 0, flag = 0;
