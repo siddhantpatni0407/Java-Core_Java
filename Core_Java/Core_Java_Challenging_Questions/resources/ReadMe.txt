@@ -32,8 +32,12 @@ Project - Core_Java_Challenging_Questions
 4.	FarthestElementFromZero.java
 => Problem Statement - Write a program to find the farthest element from 0 in array?
 					   Example : [-3, -12, -18, -500, 0, -21, 11, -19, 85, 300] Ans. -500 
-					
-5. FizzBuzz.java					  
+
+*****************************************************************************************
+
+# Package : com.sid.hackerrank
+-------------------------------------					
+1. FizzBuzz.java					  
 => Problem Statement - Program that prints the numbers from 1 to number (user input number). But for multiples of
  					   three print "Fizz" instead of the number and for the multiples of five
  					   print "Buzz". For numbers which are multiples of both three and five

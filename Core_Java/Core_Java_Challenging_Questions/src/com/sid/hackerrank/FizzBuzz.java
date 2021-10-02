@@ -5,7 +5,7 @@
  *     print "Buzz". For numbers which are multiples of both three and five
  *     print "FizzBuzz".
  */
-package com.sid.tricky_programs;
+package com.sid.hackerrank;
 
 /**
  * @author Siddhant Patni
