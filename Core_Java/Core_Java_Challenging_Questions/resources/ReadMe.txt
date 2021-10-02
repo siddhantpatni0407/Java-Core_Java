@@ -41,4 +41,21 @@ Project - Core_Java_Challenging_Questions
 => Problem Statement - Program that prints the numbers from 1 to number (user input number). But for multiples of
  					   three print "Fizz" instead of the number and for the multiples of five
  					   print "Buzz". For numbers which are multiples of both three and five
- 			           print "FizzBuzz".					  
+ 			           print "FizzBuzz".			
+ 			           
+
+*****************************************************************************************
+
+# Package :  com.sid.hackerearth
+------------------------------------- 			           
+
+
+
+*****************************************************************************************
+
+# Package :  com.sid.find_output_programs
+
+1. FindOutput1.java
+2. FindOutput2.java
+3. FindOutput3.java
+	  
