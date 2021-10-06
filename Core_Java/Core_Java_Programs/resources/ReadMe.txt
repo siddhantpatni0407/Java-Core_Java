@@ -2,11 +2,14 @@ Project - Core_Java_Programs
 ============================================
 # Package : com.sid.basic_programs
 -------------------------------------
-1. Check the given number is prime number or not.
+1.	PrimeNumber.java
+=>	Problem Statement - Check the given number is prime number or not	
 
-2. Check the given number is palindrome number or not.
+2.	PalindromeNumber.java 
+=>	Problem Statement - Check the given number is palindrome number or not
 
-3. Implement Fibonacci series.
+3.	FibonacciSeries.java
+=>	Problem Statement - Write a program to print Fibonacci series pof given number
 
 *****************************************************************************************
 
