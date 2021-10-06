@@ -50,7 +50,16 @@ Sample Testcases:
 
 checkdigits(55555) 	->7
 checkdigits (222)	->6
-checkdigits(1234) 	->1				   
+checkdigits(1234) 	->1				
+
+6.	ReturnStringComparison.java
+=>	Problem statement - 
+Problem statement - Write a program to return boolean value on string comparison.
+  					Satisfy below conditions:
+  						No null pointer exception
+  						No null check
+ 						No local variable
+ 						No exception handling 
 
 *****************************************************************************************
 
