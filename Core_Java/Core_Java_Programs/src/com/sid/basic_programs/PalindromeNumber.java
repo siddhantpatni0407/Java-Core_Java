@@ -1,3 +1,6 @@
+/**
+ * 	Problem Statement - Check the given number is palindrome number or not
+ */
 package com.sid.basic_programs;
 
 import java.util.Scanner;
