@@ -7,6 +7,8 @@
  */
 package com.sid.hackerrank;
 
+import java.util.Scanner;
+
 /**
  * @author Siddhant Patni
  *
@@ -35,7 +37,11 @@ public class FizzBuzz
 	            }
 	        }
 	}
-    public static void main(String args[]){
-    	getFizzBuzz(35);
+    public static void main(String args[])
+    {
+    	System.out.print("Enter number to check : ");
+    	Scanner sc = new Scanner(System.in);
+    	int number = sc.nextInt();
+    	getFizzBuzz(number);
     }
 }
