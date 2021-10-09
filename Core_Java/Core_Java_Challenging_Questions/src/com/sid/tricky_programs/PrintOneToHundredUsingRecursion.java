@@ -8,17 +8,17 @@ package com.sid.tricky_programs;
  */
 public class PrintOneToHundredUsingRecursion 
 {
-	   public static void printUptoGivenNumber(int number)
-	    {
-	        if(number <= 100)
-	        {
-	           System.out.print(number + " ");
-	           printUptoGivenNumber(number + 1);
-	        }
-	    }
-	    public static void main(String[] args)
-	    {
-	    	int number=1;
-	    	printUptoGivenNumber(number);
-	    }
+   public static void printUptoGivenNumber(int number)
+    {
+        if(number <= 100)
+        {
+           System.out.print(number + " ");
+           printUptoGivenNumber(number + 1);
+        }
+    }
+    public static void main(String[] args)
+    {
+    	int number=1;
+    	printUptoGivenNumber(number);
+    }
 }
