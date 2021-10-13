@@ -9,8 +9,13 @@ Project - Core_Java_Programs
 =>	Problem Statement - Check the given number is palindrome number or not
 
 3.	FibonacciSeries.java
-=>	Problem Statement - Write a program to print Fibonacci series pof given number
+=>	Problem Statement - Write a program to print Fibonacci series of given number
 
+4.	EvenOddNumber.java
+=>	Problem statement - Program to check given number is Even or Odd
+
+5.	Anagram.java
+=>	Problem statement - Write a function to check whether two given strings are an Anagram of each other or not
 *****************************************************************************************
 
 # Package : com.sid.pattern
