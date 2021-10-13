@@ -18,6 +18,9 @@ Project - Core_Java_Challenging_Questions
 2.	StringReverse.java
 =>	Problem Statement - Write a program to reverse the string
 
+3.	StringOperations.java
+=>	Problem Statement - Perform various string operations
+
 # Package : com.sid.tricky_programs
 -------------------------------------
 1.	PrintOneToHundred.java
@@ -64,6 +67,36 @@ Problem statement - Write a program to return boolean value on string comparison
 7. PrintOneToHundredUsingRecursion.java
 =>	Problem statement - Print from 1 to 100  using recursion
 
+8. AddElementToArray.java
+=>	Problem statement - Add new element to array
+
+9. FindLargestNumber.java
+=>	Problem statement - Write a method to return the maximum value from an integer array 
+    					passed as an input parameter
+
+10. FindLargestNumberUsingRecursion.java
+=>	Problem statement - Write a method to return the maximum value from an integer array 
+ 					    passed as an input parameter using recursion  		
+
+11. PrintFirstHundredPrimeNumbers.java
+=>	Problem statement - Write a program to Print First Hundred Prime Numbers
+
+12.	RearrangeArray.java	
+=>	Problem statement - Rearrange the array?
+						even
+						A={2,2,3,3};
+						N=4
+						M=N/2
+						A[0]=A[M+1]
+						A[1]=A[m+2]
+						A[M]=A[N]
+							
+						Example:
+						A={2,3,2,3} Output = Yes (even array)
+						A={1,2,3,4,1,2,3,4} Output =No (Odd array)
+						
+13.	SumOfPrimeNumbers.java
+=>	Problem statement - Write a program to return sum of prime numbers						 					    			
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
@@ -91,3 +124,8 @@ Problem statement - Write a program to return boolean value on string comparison
 3. FindOutput3.java
 4. FindOutput4.java
 	  
+	  
+# Package :  com.sid.find_output_programs
+------------------------------------------- 			           
+1. PrintEvenOddNumberUsingThread.java	  
+=>	Problem statement - Write a program to print even and odd number using threads
