@@ -96,7 +96,10 @@ Problem statement - Write a program to return boolean value on string comparison
 						A={1,2,3,4,1,2,3,4} Output =No (Odd array)
 						
 13.	SumOfPrimeNumbers.java
-=>	Problem statement - Write a program to return sum of prime numbers						 					    			
+=>	Problem statement - Write a program to return sum of prime numbers		
+
+14.	CopyArrayElements.java
+=>	Problem statement - Copy elements from one array to another array	
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
