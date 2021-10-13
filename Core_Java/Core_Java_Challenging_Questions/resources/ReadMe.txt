@@ -100,6 +100,9 @@ Problem statement - Write a program to return boolean value on string comparison
 
 14.	CopyArrayElements.java
 =>	Problem statement - Copy elements from one array to another array	
+
+15.	CountFrequencyOfElement.java
+=>	Problem statement - Program to find the frequency of each element in the array
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
