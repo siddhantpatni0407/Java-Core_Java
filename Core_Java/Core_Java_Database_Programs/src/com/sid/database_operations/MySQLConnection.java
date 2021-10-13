@@ -14,6 +14,7 @@ import java.sql.Statement;
  */
 public class MySQLConnection 
 {
+	public static final String MYSQL_DRIVER ="com.mysql.jdbc.Driver";
 	public static final String MYSQL_URL="jdbc:mysql://localhost:3306/sid";
 	public static final String MYSQL_USERNAME="root";
 	public static final String MYSQL_PASSWORD="root"; 
@@ -23,7 +24,7 @@ public class MySQLConnection
 		try
 		{  
 			// Add MySQL connector jar into build path of project
-			Class.forName("com.mysql.jdbc.Driver");  
+			Class.forName(MYSQL_DRIVER);  
 			Connection con=DriverManager.getConnection(MYSQL_URL,MYSQL_USERNAME,MYSQL_PASSWORD);  
 			Statement stmt=con.createStatement();  
 			ResultSet rs=stmt.executeQuery("select * from employee");  
