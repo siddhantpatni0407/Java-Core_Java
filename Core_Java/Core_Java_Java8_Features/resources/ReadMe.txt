@@ -10,4 +10,7 @@ Project - Core_Java_Java8_Features
 						an integer array using java 8 stream.
 						
 3.	FindEvenNumberFromListUsingStream.java
-=>	Problem statement - Write a program to find even and odd numbers from list using java 8 stream.						
+=>	Problem statement - Write a program to find even and odd numbers from list using java 8 stream.
+
+4.	SortListUsingStream.java
+=>	Problem statement - Write a program to sort the numbers and strings using java 8 stream						
