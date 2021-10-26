@@ -13,4 +13,10 @@ Project - Core_Java_Java8_Features
 =>	Problem statement - Write a program to find even and odd numbers from list using java 8 stream.
 
 4.	SortListUsingStream.java
-=>	Problem statement - Write a program to sort the numbers and strings using java 8 stream						
+=>	Problem statement - Write a program to sort the numbers and strings using java 8 stream		
+
+5.	StreamFunctionality.java
+=>	Problem statement - Write a program to use various method of java 8 stream
+
+6.	SeqParallelSortUsingStrem.java
+=>	Problem statement - Write a program to sort sequential and parallel sorting using stream 				
