@@ -16,6 +16,12 @@ Project - Core_Java_Programs
 
 5.	Anagram.java
 =>	Problem statement - Write a function to check whether two given strings are an Anagram of each other or not
+
+6.	PrimeFactors.java
+=>	Problem statement - Write a program to print prime factors for given number
+
+7.	PrimeNumberInRange.java
+=>	Problem statement - Write a program to print prime between two numbers
 *****************************************************************************************
 
 # Package : com.sid.pattern
