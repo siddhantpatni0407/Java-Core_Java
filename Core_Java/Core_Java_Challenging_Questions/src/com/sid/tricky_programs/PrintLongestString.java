@@ -34,6 +34,6 @@ public class PrintLongestString
 	{
     	String inputString1="javasiddhantdev";
     	String inputString2="devsiddhantnet";
-    	System.out.println(returnLongestString(inputString1, inputString2));
+    	System.out.println("Longest string in given two strings is : "+returnLongestString(inputString1, inputString2));
     }
 }
