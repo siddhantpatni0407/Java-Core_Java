@@ -106,6 +106,12 @@ Problem statement - Write a program to return boolean value on string comparison
 
 16.	PrintFirstRepeatingElement.java
 =>	Problem statement - Write a program to get the first repeating element from integer array
+
+17.	PrintLongestString.java
+=>	Problem statement - Write a program to print longest string from given two string
+ * 	 Input - inputString1="javasiddhantdev";
+    		 inputString2="devsiddhantnet";
+     Output - siddhant 
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
