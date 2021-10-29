@@ -134,7 +134,10 @@ Problem statement - Write a program to return boolean value on string comparison
 4. FindOutput4.java
 	  
 	  
-# Package :  com.sid.find_output_programs
+# Package :  com.sid.multithreading
 ------------------------------------------- 			           
-1. PrintEvenOddNumberUsingThread.java	  
+1.	PrintEvenOddNumberUsingThread.java	  
 =>	Problem statement - Write a program to print even and odd number using threads
+
+2.	WaitSleepMethodDemo.java
+=>	Problem statement - Java program to demonstrate the difference between wait and sleep
