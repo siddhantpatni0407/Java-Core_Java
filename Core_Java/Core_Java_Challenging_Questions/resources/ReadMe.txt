@@ -103,6 +103,9 @@ Problem statement - Write a program to return boolean value on string comparison
 
 15.	CountFrequencyOfElement.java
 =>	Problem statement - Program to find the frequency of each element in the array
+
+16.	PrintFirstRepeatingElement.java
+=>	Problem statement - Write a program to get the first repeating element from integer array
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
