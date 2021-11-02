@@ -117,7 +117,10 @@ Problem statement - Write a program to return boolean value on string comparison
 =>	Problem statement - Java program to get the count of each character in the string  
 
 19.	CountPairsWithKDifference.java
-=>	Problem statement - Java program to count pairs with difference k   
+=>	Problem statement - Java program to count pairs with difference k 
+
+20.	CountOfWordInString.java
+=>	Problem statement - Java program to get the count of each word in the string  
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
