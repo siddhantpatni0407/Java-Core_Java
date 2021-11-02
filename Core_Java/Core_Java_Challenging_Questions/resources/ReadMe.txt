@@ -112,6 +112,9 @@ Problem statement - Write a program to return boolean value on string comparison
  * 	 Input - inputString1="javasiddhantdev";
     		 inputString2="devsiddhantnet";
      Output - siddhant 
+     
+18.	CountOfCharacterInString.java
+=>	Problem statement - Java program to get the count of each character in the string     
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
