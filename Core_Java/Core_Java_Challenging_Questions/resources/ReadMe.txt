@@ -114,7 +114,10 @@ Problem statement - Write a program to return boolean value on string comparison
      Output - siddhant 
      
 18.	CountOfCharacterInString.java
-=>	Problem statement - Java program to get the count of each character in the string     
+=>	Problem statement - Java program to get the count of each character in the string  
+
+19.	CountPairsWithKDifference.java
+=>	Problem statement - Java program to count pairs with difference k   
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
