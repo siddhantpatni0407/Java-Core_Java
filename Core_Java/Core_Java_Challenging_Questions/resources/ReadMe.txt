@@ -124,6 +124,9 @@ Problem statement - Write a program to return boolean value on string comparison
 
 21.	CountOfGivenWordInString.java
 =>	Problem statement - Java program to get the count of given word in the string
+
+22.	CountOfGivenCharInString.java
+=>	Problem statement - Java program to get the count of given character in the string
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
