@@ -11,26 +11,35 @@ import java.util.Scanner;
  */
 public class PalindromeNumber 
 {
-	@SuppressWarnings("resource")
-	public static void main(String args[]) 
+	public static void checkPalindromeNumber(int inputNumber)
 	{
-		int n, originalNumber, r, sum = 0, temp;
-		
+		int reversedNumber = 0, remainder;
+	    // store the number to originalNum
+	    int originalNumber = inputNumber;
+	    
+	    // get the reverse of originalNum
+	    // store it in variable
+	    while (inputNumber != 0) 
+	    {
+	      remainder = inputNumber % 10;
+	      reversedNumber = reversedNumber * 10 + remainder;
+	      inputNumber /= 10;
+	    }
+	    // check if reversedNum and originalNum are equal
+	    if (originalNumber == reversedNumber) 
+	    {
+	      System.out.println(originalNumber + " is Palindrome.");
+	    }
+	    else 
+	    {
+	      System.out.println(originalNumber + " is not Palindrome.");
+	    }
+	}
+	public static void main(String[] args) 
+	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter number to palindrome - ");
-		n = sc.nextInt();
-		originalNumber=n;
-		temp = n;
-		
-		while (n > 0) 
-		{
-			r = n % 10; // getting remainder
-			sum = (sum * 10) + r;
-			n = n / 10;
-		}
-		if (temp == sum)
-			System.out.println(originalNumber + " is palindrome number ");
-		else
-			System.out.println(originalNumber + " is not palindrome number");
+		System.out.print("Enter number to check palindrome : ");
+		int number = sc.nextInt();
+		checkPalindromeNumber(number);
 	}
 }
