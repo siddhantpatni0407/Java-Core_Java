@@ -22,6 +22,9 @@ Project - Core_Java_Programs
 
 7.	PrimeNumberInRange.java
 =>	Problem statement - Write a program to print prime between two numbers
+
+8.	SwapNumbersWithoutThirdVaribale.java
+=>	Problem statement - Java Program to swap two numbers without using temporary variable
 *****************************************************************************************
 
 # Package : com.sid.pattern
