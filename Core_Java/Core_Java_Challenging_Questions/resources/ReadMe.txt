@@ -155,6 +155,8 @@ Problem statement - Write a program to return boolean value on string comparison
 4. FindOutput4.java
 5. FindOutput5.java
 6. FindOutput6.java
+7. FindOutput7.java
+8. FindOutput8.java
 	  
 	  
 # Package :  com.sid.multithreading
