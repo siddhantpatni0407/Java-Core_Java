@@ -127,6 +127,9 @@ Problem statement - Write a program to return boolean value on string comparison
 
 22.	CountOfGivenCharInString.java
 =>	Problem statement - Java program to get the count of given character in the string
+
+23.	RemoveDupValueFromHashMap.java
+=>	Problem statement - Write a program to remove duplicate value from HashMap
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
