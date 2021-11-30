@@ -1,7 +1,7 @@
 /**
  * 	Problem statement - Write a program to sort the numbers and strings using java 8 stream 
  */
-package com.sid.java8_features;
+package com.sid.java8_features.stream;
 
 import java.util.Arrays;
 import java.util.Comparator;
