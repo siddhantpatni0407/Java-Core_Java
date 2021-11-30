@@ -145,7 +145,8 @@ Problem statement - Write a program to return boolean value on string comparison
  					   print "Buzz". For numbers which are multiples of both three and five
  			           print "FizzBuzz".			
  			           
-
+2.	ZigzagTraversal.java	
+=>	Problem statement - Write a program to print zigzag traversal of given matrix
 *****************************************************************************************
 
 # Package :  com.sid.hackerearth
