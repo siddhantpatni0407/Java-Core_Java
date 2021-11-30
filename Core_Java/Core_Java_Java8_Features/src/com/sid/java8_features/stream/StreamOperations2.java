@@ -1,5 +1,5 @@
 /**
- * 	Problem statment - Write a program to perform various stream operations 2
+ * 	Problem statement - Write a program to perform various stream operations 2
  */
 package com.sid.java8_features.stream;
 
