@@ -147,6 +147,9 @@ Problem statement - Write a program to return boolean value on string comparison
  			           
 2.	ZigzagTraversal.java	
 =>	Problem statement - Write a program to print zigzag traversal of given matrix
+
+3.	SumOfKPrimeNumbers.java
+=>	Problem statement - Java implementation to check if N can be written as sum of k primes
 *****************************************************************************************
 
 # Package :  com.sid.hackerearth
