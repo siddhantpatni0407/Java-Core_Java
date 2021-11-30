@@ -39,6 +39,9 @@ Project - Core_Java_Java8_Features
 8.	StreamOperations5.java
 =>	Problem statement - Write a program to perform various stream operations 5
 
+9.	StreamOperations6.java
+=>	Problem statement - Write a program to perform various stream operations 6
+
 # Package : com.sid.java8_features.optional
 --------------------------------------------
 
