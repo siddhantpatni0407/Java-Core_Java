@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  * @author Siddhant Patni
  *
  */
-public class SeqParallelSortUsingStrem 
+public class SeqParallelSortUsingStream 
 {
     public static final int MAX = 1000000;
 

@@ -18,5 +18,5 @@ Project - Core_Java_Java8_Features
 5.	StreamFunctionality.java
 =>	Problem statement - Write a program to use various method of java 8 stream
 
-6.	SeqParallelSortUsingStrem.java
+6.	SeqParallelSortUsingStream.java
 =>	Problem statement - Write a program to sort sequential and parallel sorting using stream 				
