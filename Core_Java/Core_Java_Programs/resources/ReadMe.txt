@@ -28,6 +28,9 @@ Project - Core_Java_Programs
 
 9.	ArmstrongNumber.java
 =>	Problem statement - Write a function to check whether given number is Armstrong number or not
+
+10.	LeapYear.java
+=>	Problem statement - Write a function to check whether given year is Leap year or not
 *****************************************************************************************
 
 # Package : com.sid.pattern
