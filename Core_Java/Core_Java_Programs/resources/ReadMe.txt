@@ -25,6 +25,9 @@ Project - Core_Java_Programs
 
 8.	SwapNumbersWithoutThirdVaribale.java
 =>	Problem statement - Java Program to swap two numbers without using temporary variable
+
+9.	ArmstrongNumber.java
+=>	Problem statement - Write a function to check whether given number is Armstrong number or not
 *****************************************************************************************
 
 # Package : com.sid.pattern
