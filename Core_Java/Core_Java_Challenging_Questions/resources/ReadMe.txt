@@ -138,6 +138,9 @@ Problem statement - Write a program to return boolean value on string comparison
  
 25.	FindMissingNumber.java
 =>	Problem statement - Write a java program to find missing Number
+
+26.	ReverseNumber.java
+=>	Problem statement - Write a program to reverse a given number
 *****************************************************************************************
 
 # Package : com.sid.hackerrank
