@@ -27,7 +27,7 @@
 
 package com.sid.tricky_programs;
 
-public class FindNoOfWays {
+public class StairClimb {
     private static int countWays(int n) {
         //check if n is less than 1 or not, if yes then return 1
         if (n <= 1) {
@@ -46,9 +46,9 @@ public class FindNoOfWays {
     public static void main(String[] args) {
         int n;
         n = 4;
-        System.out.println("The number of ways to climb " + n + " the stairs is : " + countWays(n));
+        System.out.println("The number of ways to climb " + n + " stairs is : " + countWays(n));
 
         n = 10;
-        System.out.println("The number of ways to climb " + n + " the stairs is : " + countWays(n));
+        System.out.println("The number of ways to climb " + n + " stairs is : " + countWays(n));
     }
 }
