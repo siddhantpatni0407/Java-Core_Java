@@ -389,6 +389,18 @@ public class Program2 {
                 .map(sum1::addAndGet)
                 .collect(Collectors.toList());
         System.out.println("cumulativeSum -> " + cumulativeSum);
+
+        //51. Find the sum of list within the list of integers.
+        List<List<Integer>> listOfListOfIntegers = Arrays.asList(Arrays.asList(1, 2, 3), Arrays.asList(4, 5, 6));
+        int sumOfIntegers =
+                listOfListOfIntegers
+                        .stream()
+                        .flatMapToInt(integersList -> integersList
+                                .stream()
+                                .mapToInt(Integer::intValue))
+                        .sum();
+        System.out.println("Sum of integers : " + sumOfIntegers);
+
     }
 
 }
