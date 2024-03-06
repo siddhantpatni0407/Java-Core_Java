@@ -2,20 +2,16 @@ package com.sid.find_output_programs;
 
 /**
  * @author Siddhant Patni
- *
  */
-class FindOutput4 
-{
-	public static void main(String args[])
-	{
-		final int a=10, b=20;
-		do 
-		{
-			System.out.println("Hello");
-		}
-		while(a<b);
-		//System.out.println("Hi");   // unreachable statement
-	}
+class FindOutput4 {
+    public static void main(String args[]) {
+        final int a = 10, b = 20;
+        do {
+            System.out.println("Hello");
+        }
+        while (a < b);
+        //System.out.println("Hi");   // unreachable statement
+    }
 }
 
 // Remove commented code for actual problem, I have commented code to make it error free

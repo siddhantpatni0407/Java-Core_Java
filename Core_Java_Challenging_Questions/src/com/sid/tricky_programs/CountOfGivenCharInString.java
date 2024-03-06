@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class CountOfGivenCharInString {
     public static long countCharInString1(String str, char ch) {

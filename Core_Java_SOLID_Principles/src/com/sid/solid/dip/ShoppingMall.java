@@ -2,7 +2,6 @@ package com.sid.solid.dip;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class ShoppingMall {
 
@@ -12,16 +11,16 @@ public class ShoppingMall {
         this.bankCard = bankCard;
     }
 
-    public void doPurchaseSomething(long amount){
-        bankCard.doTransaction(amount);
+    public static void main(String[] args) {
+        // DebitCard debitCard=new DebitCard();
+        // CreditCard creditCard=new CreditCard();
+
+        BankCard bankCard = new CreditCard();
+        ShoppingMall shoppingMall = new ShoppingMall(bankCard);
+        shoppingMall.doPurchaseSomething(5000);
     }
 
-    public static void main(String[] args) {
-       // DebitCard debitCard=new DebitCard();
-       // CreditCard creditCard=new CreditCard();
-
-        BankCard bankCard=new CreditCard();
-        ShoppingMall shoppingMall=new ShoppingMall(bankCard);
-        shoppingMall.doPurchaseSomething(5000);
+    public void doPurchaseSomething(long amount) {
+        bankCard.doTransaction(amount);
     }
 }

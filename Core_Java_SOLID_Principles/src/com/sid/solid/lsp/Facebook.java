@@ -2,7 +2,6 @@ package com.sid.solid.lsp;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class Facebook extends SocialMedia {
 

@@ -5,7 +5,6 @@ package com.sid.basic_programs;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class PrimeFactors {
     public static void getPrimeFactors(int number) {

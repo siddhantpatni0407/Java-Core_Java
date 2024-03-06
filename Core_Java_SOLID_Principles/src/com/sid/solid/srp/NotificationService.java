@@ -2,7 +2,6 @@ package com.sid.solid.srp;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class NotificationService {
     public void sendOTP(String medium) {
@@ -10,7 +9,7 @@ public class NotificationService {
             //write email related logic
             //use JavaMailSenderAPI
         }
-        if(medium.equals("mobile")){
+        if (medium.equals("mobile")) {
             //write logic using twillio API
         }
     }

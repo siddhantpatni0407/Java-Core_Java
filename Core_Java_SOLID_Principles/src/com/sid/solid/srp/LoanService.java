@@ -2,7 +2,6 @@ package com.sid.solid.srp;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class LoanService {
 

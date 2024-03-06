@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class LeapYear {
     public static boolean checkLeapYear(int year) {

@@ -2,7 +2,6 @@ package com.sid.solid.ocp;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class EmailNotificationService implements Notificationservice {
     public void sendOTP(String medium) {

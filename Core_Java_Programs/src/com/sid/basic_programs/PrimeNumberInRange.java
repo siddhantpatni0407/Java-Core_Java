@@ -5,7 +5,6 @@ package com.sid.basic_programs;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class PrimeNumberInRange {
     public static void getPrimeNumbers(int number1, int number2) {

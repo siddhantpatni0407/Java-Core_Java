@@ -2,9 +2,8 @@ package com.sid.solid.isp;
 
 /**
  * @author Siddhant Patni
- *
  */
-public class GooglePay implements UPIPayments,CashBackManager {
+public class GooglePay implements UPIPayments, CashBackManager {
 
     public void payMoney() {
 
@@ -15,6 +14,6 @@ public class GooglePay implements UPIPayments,CashBackManager {
     }
 
     public void getCashBackAsCreditBalance() {
-      //this features is there in gpay
+        //this features is there in gpay
     }
 }

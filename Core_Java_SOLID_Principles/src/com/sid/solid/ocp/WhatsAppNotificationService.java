@@ -2,7 +2,6 @@ package com.sid.solid.ocp;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class WhatsAppNotificationService implements Notificationservice {
 

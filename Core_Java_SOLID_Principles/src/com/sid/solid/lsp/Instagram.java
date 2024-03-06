@@ -2,7 +2,6 @@ package com.sid.solid.lsp;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class Instagram extends SocialMedia {
 
@@ -19,6 +18,6 @@ public class Instagram extends SocialMedia {
     }
 
     public void groupVideoCall(String... users) {
-    	//not applicable
+        //not applicable
     }
 }

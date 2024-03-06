@@ -2,9 +2,8 @@ package com.sid.solid.lsp.solution;
 
 /**
  * @author Siddhant Patni
- *
  */
-public class WhatsApp implements SocialMedia,SocialVideoCallManager {
+public class WhatsApp implements SocialMedia, SocialVideoCallManager {
     public void chatWithFriend() {
 
     }

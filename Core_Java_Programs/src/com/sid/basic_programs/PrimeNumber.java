@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class PrimeNumber {
     @SuppressWarnings("resource")

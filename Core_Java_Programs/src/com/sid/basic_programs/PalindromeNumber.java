@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class PalindromeNumber {
     public static void checkPalindromeNumber(int inputNumber) {

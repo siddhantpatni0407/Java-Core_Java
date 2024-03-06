@@ -1,5 +1,5 @@
 /**
- * 	Problem statement - Write a program to sort sequential and parallel sorting using stream 
+ * Problem statement - Write a program to sort sequential and parallel sorting using stream
  */
 package com.sid.java8_features.stream;
 
@@ -12,12 +12,10 @@ import java.util.concurrent.TimeUnit;
  * @author Siddhant Patni
  *
  */
-public class SeqParallelSortUsingStream 
-{
+public class SeqParallelSortUsingStream {
     public static final int MAX = 1000000;
 
-    public static void sortSequential() 
-    {
+    public static void sortSequential() {
         List<String> values = new ArrayList<>(MAX);
         for (int i = 0; i < MAX; i++) {
             UUID uuid = UUID.randomUUID();
@@ -37,8 +35,7 @@ public class SeqParallelSortUsingStream
         System.out.println(String.format("Sequential sort took : %d ms", millis));
     }
 
-    public static void sortParallel() 
-    {
+    public static void sortParallel() {
         List<String> values = new ArrayList<>(MAX);
         for (int i = 0; i < MAX; i++) {
             UUID uuid = UUID.randomUUID();
@@ -58,8 +55,7 @@ public class SeqParallelSortUsingStream
         System.out.println(String.format("Parallel sort took : %d ms", millis));
     }
 
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         sortSequential();
         sortParallel();
     }
