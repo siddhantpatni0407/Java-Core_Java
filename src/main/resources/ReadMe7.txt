@@ -33,7 +33,7 @@ Project - Core_Java_Programs
 =>	Problem statement - Write a function to check whether given year is Leap year or not
 *****************************************************************************************
 
-# Package : com.sid.pattern
+# Package : com.sid.patterns
 -------------------------------------
 
 1. 	*****
