@@ -19,6 +19,13 @@ public class ArraySort {
         for (String country : countries) {
             System.out.println(country);
         }
+
+        int[] arr = {50, 20, 40, 10, 30};
+        Arrays.sort(arr);
+        System.out.print("Sorted array: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
     }
 
 }
