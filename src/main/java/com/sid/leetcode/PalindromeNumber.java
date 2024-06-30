@@ -6,19 +6,19 @@ package com.sid.leetcode;
 
 public class PalindromeNumber {
 
-    public static boolean isPalindromeNumber(int x) {
-        // x is negative or (x is not zero and x is end with zero)
-        if (x < 0)
+    public static boolean isPalindromeNumber(int input) {
+        // input is negative or (input is not zero and input is end with zero)
+        if (input < 0)
             return false;
-        if (x != 0 && x % 10 == 0)
+        if (input != 0 && input % 10 == 0)
             return false;
         int reverse = 0;
-        while (x > reverse) {
-            int lastDigit = x % 10;
+        while (input > reverse) {
+            int lastDigit = input % 10;
             reverse = reverse * 10 + lastDigit;
-            x = x / 10;
+            input = input / 10;
         }
-        return (x == reverse) || (x == reverse / 10);
+        return (input == reverse) || (input == reverse / 10);
     }
 
     public static void main(String[] args) {
