@@ -1,7 +1,7 @@
 /**
  * Problem statement - Write a program to find even and odd numbers from list using java 8 stream.
  */
-package com.sid.java8.features.stream;
+package com.sid.java8.features.stream.basics;
 
 import java.util.Arrays;
 import java.util.List;

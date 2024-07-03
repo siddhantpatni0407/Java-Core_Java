@@ -1,7 +1,7 @@
 /**
  * Problem statement - Write a program to sort sequential and parallel sorting using stream
  */
-package com.sid.java8.features.stream;
+package com.sid.java8.features.stream.basics;
 
 import java.util.ArrayList;
 import java.util.List;

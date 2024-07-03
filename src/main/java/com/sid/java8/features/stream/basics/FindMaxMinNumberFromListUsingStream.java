@@ -2,7 +2,7 @@
  * Problem statement - Write a program to return the maximum and minimum value from an integer array
  * using java 8 stream.
  */
-package com.sid.java8.features.stream;
+package com.sid.java8.features.stream.basics;
 
 import java.util.Arrays;
 import java.util.List;
