@@ -1,4 +1,4 @@
-package com.sid.find_output_programs;
+package com.sid.find_output;
 
 /**
  * @author Siddhant Patni

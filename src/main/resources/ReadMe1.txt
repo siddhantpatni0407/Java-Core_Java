@@ -165,7 +165,7 @@ Problem statement - Write a program to return boolean value on string comparison
 
 *****************************************************************************************
 
-# Package :  com.sid.find_output_programs
+# Package :  com.sid.find_output
 ------------------------------------------- 			           
 1. FindOutput1.java
 2. FindOutput2.java
