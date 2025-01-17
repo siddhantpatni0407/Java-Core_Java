@@ -72,3 +72,28 @@ Project - Core_Java_Java8_Features
 
 1. Student.java
    =>    Problem statement- Student model class
+
+
+*   package com.sid.interview_questions
+--------------------------------------------
+
+1. Program1.java
+    =>   
+    Write a java program to group a list of strings based on their lengths and count the number of strings in each group. 
+    Example if the input list is : ["dog", "cat", "elephant", "rabbit", "fox", ""giraffe", "ant", "zebra", "owl"] and 
+    the output should be :
+       String of length 3 : 4 Strings : ("dog", "cat", "fox", "owl")
+       String of length 4 : 1 String ("zebra")
+       String of length 6 : 2 String ("rabbit", "giraffe")
+       String of length 8 : 1 String ("elephant")
+
+2. Program2.java
+    =>
+    Find Highest Odd Number
+    num = "5688248" output = "5"
+    num = "61632826" output = "6163"
+    num = "616338261" output = "616338261"
+
+3. Program3.java 
+    =>
+   Find Nth Highest salary of Employee using Java 8 Stream.
