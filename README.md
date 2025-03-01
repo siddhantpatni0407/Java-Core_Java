@@ -1,9 +1,20 @@
-# java-programs
+# 📌 Java-Core_Java
+
+
+| **Java Package**              | **Program File** | **Problem Definition**                                                                                                                                                                                             | **Concept Used** | **Status** |
+|-------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|------------|
+| `com.sid.interview_questions` | `Program1.java`  | Group a list of strings based on their lengths and count the number of strings in each group.                                                                                                                      | Java             | ✅          |
+| `com.sid.interview_questions` | `Program2.java`  | Find Highest Odd Number.                                                                                                                                                                                           | Java             | ✅          |
+| `com.sid.interview_questions` | `Program3.java`  | Find Nth Highest salary of Employee using Java 8 Stream.                                                                                                                                                           | Java             | ✅          |
+| `com.sid.interview_questions` | `Program4.java`  | Convert a string representing numbers into an integer.                                                                                                                                                             | Java             | ✅          |
+| `com.sid.interview_questions` | `Program5.java`  | Check if a string containing brackets ((), {}, []) is balanced, ensuring each opening bracket has a corresponding closing bracket in the correct order.                                                            | Java             | ✅          |
+| `com.sid.interview_questions` | `Program6.java`  | Given a list of students with names, exam subjects, and grades, implement methods to find the top-performing students, return them as a map, format the results as a string, and identify a single highest scorer. | Java             | ✅          |
 
 Project - Core_Java_Java8_Features
 ============================================
 
-*   Package : com.sid.java8.features.stream
+* Package : com.sid.java8.features.stream
+
 -------------------------------------
 
 1. MaxNumberUsingStream.java
@@ -49,7 +60,8 @@ Project - Core_Java_Java8_Features
 14. StreamOperations8.java
     =>    Problem statement - Write a program to perform various stream operations 8
 
-*   Package : com.sid.java8.features.optional
+* Package : com.sid.java8.features.optional
+
 --------------------------------------------
 
 1. Optional1.java
@@ -58,7 +70,8 @@ Project - Core_Java_Java8_Features
 2. Optional2.java
    =>    Problem statement- Optional class demo 2
 
-*   Package : com.sid.generators
+* Package : com.sid.generators
+
 --------------------------------------------
 
 1. GenerateCustomerData.java
@@ -67,33 +80,35 @@ Project - Core_Java_Java8_Features
 2. GenerateEmployeeData.java
    =>    Problem statement- Generate Employee Data
 
-*   Package : com.sid.common.model
+* Package : com.sid.common.model
+
 --------------------------------------------
 
 1. Student.java
    =>    Problem statement- Student model class
 
 
-*   package com.sid.interview_questions
+* package com.sid.interview_questions
+
 --------------------------------------------
 
 1. Program1.java
-    =>   
-    Write a java program to group a list of strings based on their lengths and count the number of strings in each group. 
-    Example if the input list is : ["dog", "cat", "elephant", "rabbit", "fox", ""giraffe", "ant", "zebra", "owl"] and 
-    the output should be :
-       String of length 3 : 4 Strings : ("dog", "cat", "fox", "owl")
-       String of length 4 : 1 String ("zebra")
-       String of length 6 : 2 String ("rabbit", "giraffe")
-       String of length 8 : 1 String ("elephant")
+   =>   
+   Write a java program to group a list of strings based on their lengths and count the number of strings in each group.
+   Example if the input list is : ["dog", "cat", "elephant", "rabbit", "fox", ""giraffe", "ant", "zebra", "owl"] and
+   the output should be :
+   String of length 3 : 4 Strings : ("dog", "cat", "fox", "owl")
+   String of length 4 : 1 String ("zebra")
+   String of length 6 : 2 String ("rabbit", "giraffe")
+   String of length 8 : 1 String ("elephant")
 
 2. Program2.java
-    =>
-    Find Highest Odd Number
-    num = "5688248" output = "5"
-    num = "61632826" output = "6163"
-    num = "616338261" output = "616338261"
+   =>
+   Find Highest Odd Number
+   num = "5688248" output = "5"
+   num = "61632826" output = "6163"
+   num = "616338261" output = "616338261"
 
-3. Program3.java 
-    =>
+3. Program3.java
+   =>
    Find Nth Highest salary of Employee using Java 8 Stream.
