@@ -33,7 +33,7 @@ public class FindSingleNumber {
         for (int num : numberList) {
             singleNum = singleNum ^ num;
         }
-        return singleNum;s
+        return singleNum;
     }
 
     public static void main(String[] args) {
