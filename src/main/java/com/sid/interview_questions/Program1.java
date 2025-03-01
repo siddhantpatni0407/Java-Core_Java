@@ -37,8 +37,10 @@ public class Program1 {
         });*/
 
         groupedByLength
-                .forEach((length, strings) ->
-                        System.out.println(STR."String of length \{length} : \{strings.size()}\{strings.size() > 1 ? " Strings" : " String"} : \{strings}"));
+                .forEach((length, strings) -> {
+                    String label = strings.size() > 1 ? " Strings" : " String";
+                    System.out.println("String of length " + length + " : " + strings.size() + label + " : " + strings);
+                });
     }
 
 }
