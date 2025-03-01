@@ -1,5 +1,5 @@
 /**
- * Given a non-empty array of integers nums.
+ * Given a non-empty array of integers numberList.
  * every number appears twice except for one. Find the single one.
  */
 
@@ -10,16 +10,16 @@ import java.util.Set;
 
 public class FindSingleNumber {
 
-    public static int singleNumber1(int[] nums) {
+    public static int singleNumber1(int[] numberList) {
 
-        if (nums.length == 1)
-            return nums[0];
+        if (numberList.length == 1)
+            return numberList[0];
         Set<Integer> set = new HashSet<>();
-        for (int i = 0; i < nums.length; i++) {
-            if (set.contains(nums[i])) {
-                set.remove(nums[i]);
+        for (int num : numberList) {
+            if (set.contains(num)) {
+                set.remove(num);
             } else {
-                set.add(nums[i]);
+                set.add(num);
             }
         }
         return set.iterator().next();
@@ -28,17 +28,18 @@ public class FindSingleNumber {
     /**
      * Using Bitwise XOR operation.
      */
-    public static int singleNumber2(int[] nums) {
+    public static int singleNumber2(int[] numberList) {
         int singleNum = 0;
-        for (int num : nums) {
+        for (int num : numberList) {
             singleNum = singleNum ^ num;
         }
-        return singleNum;
+        return singleNum;s
     }
 
     public static void main(String[] args) {
-        int[] nums = {4, 1, 2, 1, 2, 4, 8};
-        System.out.println("Approach - 1 -> " + singleNumber1(nums));
-        System.out.println("Approach - 2 -> " + singleNumber2(nums));
+        int[] numberList = {4, 1, 2, 1, 2, 4, 8};
+        System.out.println("Approach - 1 -> " + singleNumber1(numberList));
+        System.out.println("Approach - 2 -> " + singleNumber2(numberList));
     }
+
 }
