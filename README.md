@@ -1,5 +1,8 @@
 # 📌 Java-Core_Java
 
+## **📝 Last Updated :** **`2025-03-01`**
+
+## 🏷 Programs Details
 
 | **Java Package**              | **Program File** | **Problem Definition**                                                                                                                                                                                             | **Concept Used** | **Status** |
 |-------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|------------|
@@ -9,6 +12,15 @@
 | `com.sid.interview_questions` | `Program4.java`  | Convert a string representing numbers into an integer.                                                                                                                                                             | Java             | ✅          |
 | `com.sid.interview_questions` | `Program5.java`  | Check if a string containing brackets ((), {}, []) is balanced, ensuring each opening bracket has a corresponding closing bracket in the correct order.                                                            | Java             | ✅          |
 | `com.sid.interview_questions` | `Program6.java`  | Given a list of students with names, exam subjects, and grades, implement methods to find the top-performing students, return them as a map, format the results as a string, and identify a single highest scorer. | Java             | ✅          |
+
+## 🏷 Project Status Legends
+
+| Status  | Meaning                                       | Remark |
+|---------|-----------------------------------------------|--------|
+| ✅ **Completed** | Program is fully implemented and stable.  | No further changes required. |
+| ⚠️ **In Progress** | Work is in progress, but not fully functional yet. | Development is ongoing. |
+| ⏳ **Planned** | The project is in the planning or idea phase. | Yet to be started. |
+| 🔧 **Need Enhancements** | The project is functional but requires improvements or optimizations. | Needs refinement or optimization. |
 
 Project - Core_Java_Java8_Features
 ============================================
