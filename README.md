@@ -20,7 +20,6 @@
 | `com.sid.basic_programs`                     | [PrimeNumber.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/basic_programs/PrimeNumber.java)                                          | Check the given number is prime number or not                                                                                                                                                                      | Math ops                           | ✅          |
 | `com.sid.basic_programs`                     | [PrimeNumberInRange.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/basic_programs/PrimeNumberInRange.java)                            | Print prime between two numbers                                                                                                                                                                                    | Math ops                           | ✅          |
 | `com.sid.basic_programs`                     | [SwapNumbersWithoutThirdVariable.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/basic_programs/SwapNumbersWithoutThirdVariable.java)  | Swap two numbers without using temporary variable                                                                                                                                                                  | Math ops                           | ✅          |
-| `********************`                       | ********************                                                                                                                                                               | ********************                                                                                                                                                                                               | ********************               | ✅          |
 | `com.sid.com.sid.collection_framework.array` | [ArrayOperations.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/collection_framework/array/ArrayOperations.java)                      | Sum of array elements                                                                                                                                                                                              | For loop, Array                    | ✅          |
 | `com.sid.com.sid.collection_framework.array` | [ArraySort.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/collection_framework/array/ArraySort.java)                                  | Array sort                                                                                                                                                                                                         | Arrays                             | ✅          |
 | `com.sid.com.sid.collection_framework.array` | [ArraySum.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/collection_framework/array/ArraySum.java)                                    | Array Sum                                                                                                                                                                                                          | Array                              | ✅          |
@@ -130,36 +129,3 @@ Project - Core_Java_Java8_Features
 
 2. GenerateEmployeeData.java
    =>    Problem statement- Generate Employee Data
-
-* Package : com.sid.common.model
-
---------------------------------------------
-
-1. Student.java
-   =>    Problem statement- Student model class
-
-
-* package com.sid.interview_questions
-
---------------------------------------------
-
-1. Program1.java
-   =>   
-   Write a java program to group a list of strings based on their lengths and count the number of strings in each group.
-   Example if the input list is : ["dog", "cat", "elephant", "rabbit", "fox", ""giraffe", "ant", "zebra", "owl"] and
-   the output should be :
-   String of length 3 : 4 Strings : ("dog", "cat", "fox", "owl")
-   String of length 4 : 1 String ("zebra")
-   String of length 6 : 2 String ("rabbit", "giraffe")
-   String of length 8 : 1 String ("elephant")
-
-2. Program2.java
-   =>
-   Find Highest Odd Number
-   num = "5688248" output = "5"
-   num = "61632826" output = "6163"
-   num = "616338261" output = "616338261"
-
-3. Program3.java
-   =>
-   Find Nth Highest salary of Employee using Java 8 Stream.
