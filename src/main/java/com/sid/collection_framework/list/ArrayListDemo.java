@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 /**
  * @author Siddhant Patni
- *
  */
 public class ArrayListDemo {
     public static void main(String args[]) {
@@ -56,6 +55,8 @@ public class ArrayListDemo {
 
         // Adding Learning String at index 0 i.e. 1st position
         strList2.add(0, "Learning");
+        //or
+        // strList2.addFirst("Learning");
 
         System.out.println("String After Learning Added at index 0 = " + strList2);
 
@@ -93,11 +94,6 @@ public class ArrayListDemo {
 
         System.out.println("*******************************************");
 
-
-
-
-
-
         /*
          * ArrayList<String> list = new ArrayList<String>(); list.add("Ravi");
          * list.add("Vijay"); list.add("Ravi"); list.add("Ajay");
@@ -133,4 +129,5 @@ public class ArrayListDemo {
          * if(list.isEmpty()) { System.out.println("List is empty.."); }
          */
     }
+
 }
