@@ -6,7 +6,7 @@
  * Example 2: nums1 = [1, 2], nums2 = [3, 4] -> Median = (2 + 3)/2 = 2.5
  */
 
-package com.sid.leetcode;
+package com.sid.leetcode.hard;
 
 public class MedianOfTwoSortedArrays_4 {
 

@@ -9,7 +9,7 @@
  * <p>
  * Author: Siddhant Patni
  */
-package com.sid.leetcode;
+package com.sid.leetcode.medium;
 
 import java.util.HashMap;
 import java.util.Map;

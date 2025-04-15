@@ -17,7 +17,7 @@
  * @return A list of strings representing the FizzBuzz sequence from 1 to n.
  */
 
-package com.sid.leetcode;
+package com.sid.leetcode.easy;
 
 import java.util.ArrayList;
 import java.util.List;

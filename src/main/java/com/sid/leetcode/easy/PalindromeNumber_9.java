@@ -27,7 +27,7 @@
  * @return true if the integer is a palindrome, false otherwise.
  */
 
-package com.sid.leetcode;
+package com.sid.leetcode.easy;
 
 public class PalindromeNumber_9 {
 

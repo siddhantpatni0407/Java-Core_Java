@@ -15,7 +15,7 @@
  * Output: "bb"
  */
 
-package com.sid.leetcode;
+package com.sid.leetcode.medium;
 
 import java.util.Arrays;
 

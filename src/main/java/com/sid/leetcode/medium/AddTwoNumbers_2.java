@@ -10,7 +10,7 @@
  * Output: 7 -> 0 -> 8
  */
 
-package com.sid.leetcode;
+package com.sid.leetcode.medium;
 
 /**
  * Definition for singly-linked list.

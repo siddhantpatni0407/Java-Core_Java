@@ -13,7 +13,7 @@
  * @return The integer that appears only once in the array.
  */
 
-package com.sid.leetcode;
+package com.sid.leetcode.easy;
 
 import java.util.Arrays;
 import java.util.HashSet;
