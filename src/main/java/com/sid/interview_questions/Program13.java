@@ -30,8 +30,7 @@ public class Program13 {
                 new Employee(105, "Charlie", 5000)
         );
 
-        // Find highest-salary of employee
-
+        // 1. Find highest-salary of employee
         Optional<Employee> employeeWithHighestSalary = employeeList
                 .stream()
                 .max(Comparator.comparingDouble(Employee::getSalary));
@@ -44,14 +43,14 @@ public class Program13 {
             System.out.println("Salary: " + emp.getSalary());
         });
 
-        // Find second-highest salary of employee
+        // 2. Find second-highest salary of employee
         Optional<Employee> employeeWithSecondHighestSalary = employeeList
                 .stream()
                 .sorted(Comparator.comparingDouble(Employee::getSalary).reversed())
                 .skip(1)
                 .findFirst();
 
-        // Print result safely using Optional
+        // 3. Print result safely using Optional
         employeeWithSecondHighestSalary.ifPresent(emp -> {
             System.out.println("Employee with Second Highest Salary:");
             System.out.println("ID: " + emp.getId());
@@ -59,7 +58,7 @@ public class Program13 {
             System.out.println("Salary: " + emp.getSalary());
         });
 
-        // Average salary of employees
+        // 4. Average salary of employees
         double avgSalary = employeeList
                 .stream()
                 .mapToDouble(Employee::getSalary)
@@ -67,7 +66,7 @@ public class Program13 {
                 .orElse(0.0);
         System.out.println("\n Average Salary: " + avgSalary);
 
-        // Group employees by salary
+        // 5. Group employees by salary
         Map<Double, List<Employee>> groupedBySalary = employeeList
                 .stream()
                 .collect(Collectors.groupingBy(Employee::getSalary));
@@ -77,7 +76,7 @@ public class Program13 {
                     System.out.println("Salary: " + salary + " → " + emps);
                 });
 
-        // Names of all employees sorted alphabetically
+        // 6. Names of all employees sorted alphabetically
         List<String> sortedNames = employeeList
                 .stream()
                 .map(Employee::getName)
@@ -85,7 +84,7 @@ public class Program13 {
                 .toList();
         System.out.println("\n🔤 Employee Names (Sorted): " + sortedNames);
 
-        // Summary statistics of salaries
+        // 7. Summary statistics of salaries
         DoubleSummaryStatistics stats = employeeList
                 .stream()
                 .mapToDouble(Employee::getSalary)
@@ -97,20 +96,20 @@ public class Program13 {
         System.out.println("Average: " + stats.getAverage());
         System.out.println("Max: " + stats.getMax());
 
-        // Filter employees with salary > 3000
+        // 8. Filter employees with salary > 3000
         System.out.println("\n🔍 Employees with salary > 3000:");
         employeeList
                 .stream()
                 .filter(emp -> emp.getSalary() > 3000)
                 .forEach(System.out::println);
 
-        // Convert employee list to map (id -> name)
+        // 9. Convert employee list to map (id -> name)
         Map<Integer, String> employeeMap = employeeList
                 .stream()
                 .collect(Collectors.toMap(Employee::getId, Employee::getName));
         System.out.println("\n🗺️ Employee Map (ID -> Name): " + employeeMap);
 
-        // Check if all employees have salary > 0
+        // 10. Check if all employees have salary > 0
         boolean allPositiveSalary = employeeList
                 .stream()
                 .allMatch(emp -> emp.getSalary() > 0);
