@@ -1,9 +1,38 @@
 /**
  * Java 8 Stream Programs.
+ * This class demonstrates various examples using Java 8 Stream API for different operations such as:
+ * 1. Separate Odd and Even Numbers
+ * 2. Remove duplicate elements from a list
+ * 3. Frequency count of characters in a string
+ * 4. Frequency of elements in an array
+ * 5. Sort list in reverse order
+ * 6. Join List of Strings with prefix, suffix, and delimiter
+ * 7. Print multiples of 5 from a list
+ * 8. Find maximum and minimum values in a list
+ * 9. Merge two unsorted arrays into a single sorted array
+ * 10. Check if two strings are anagrams
+ * 11. Merge two unsorted arrays into a single sorted array without duplicates
+ * 12. Sum of digits of a number
+ * 13. Find three max and min numbers from a list
+ * 14. Find second largest number in an integer array
+ * 15. Sort list of strings in increasing order of their length
+ * 16. Find common elements between two arrays
+ * 17. Sum and average of all elements in an array
+ * 18. Reverse each word in a string
+ * 19. Reverse an integer array
+ * 20. Find the sum of the first 10 natural numbers
+ * 21. Check if a string is palindrome
+ * 22. Find strings which start with a number
+ * 23. Find last element in an array
+ * 24. Find duplicate elements from an array
+ * 25. Calculate the age of a person
+ * 26. Generate Fibonacci series using Java 8 Stream API
  */
 
 package com.sid.interview_questions;
 
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -105,7 +134,7 @@ public class Program14 {
 
         System.out.println("Multiples of 5: " + multiplesOfFive);
         System.out.println("----------------------------------------------------------");
-        System.out.println("8. Maximum and Minimum in list:");
+        System.out.println("8. Find Maximum and Minimum values in list:");
 
         List<Integer> numbers3 = Arrays.asList(10, 25, 5, 40, 30, 15);
         System.out.println("Input list: " + numbers3);
@@ -201,7 +230,7 @@ public class Program14 {
         System.out.println("Sum of digits: " + sum2);
 
         System.out.println("----------------------------------------------------------");
-        System.out.println("13. Three Max and Min number from List:");
+        System.out.println("13. Find Three Max and Min number from List:");
 
         List<Integer> numbers = Arrays.asList(15, 3, 25, 7, 30, 10, 1, 50, 18);
 
@@ -221,7 +250,7 @@ public class Program14 {
         System.out.println("Top 3 Minimum: " + top3Min);
 
         System.out.println("----------------------------------------------------------");
-        System.out.println("14. Second largest number in integer array:");
+        System.out.println("14. Find Second largest number in integer array:");
 
         int[] arr = {10, 20, 30, 40, 50, 30, 50};
 
@@ -252,7 +281,7 @@ public class Program14 {
         System.out.println("Sorted by length (ascending): " + sortedByLength);
 
         System.out.println("----------------------------------------------------------");
-        System.out.println("16. Common Elements Between Two Arrays:");
+        System.out.println("16. Find Common Elements Between Two Arrays:");
 
         Integer[] arr5 = {1, 2, 3, 4, 5, 6};
         Integer[] arr6 = {4, 5, 6, 7, 8, 9};
@@ -314,7 +343,7 @@ public class Program14 {
         System.out.println("Sum of first 10 natural numbers: " + sum3);
 
         System.out.println("----------------------------------------------------------");
-        System.out.println("20. Palindrome using java 8:");
+        System.out.println("21. Palindrome using java 8:");
 
         String input1 = "madam";
 
@@ -323,7 +352,7 @@ public class Program14 {
 
         System.out.println("Is \"" + input1 + "\" a palindrome? " + isPalindrome);
         System.out.println("----------------------------------------------------------");
-        System.out.println("21. Find strings which starts with number:");
+        System.out.println("22. Find strings which starts with number:");
 
         List<String> input2 = Arrays.asList("1abc", "hello", "123start", "Test", "9Lives", "abc123");
 
@@ -339,7 +368,7 @@ public class Program14 {
         System.out.println("Strings starting with a number: " + result1);
         System.out.println("Strings starting with a number: " + result2);
         System.out.println("----------------------------------------------------------");
-        System.out.println("22. Find last element of Array:");
+        System.out.println("23. Find last element of Array:");
 
         List<String> input3 = Arrays.asList("Java", "Spring", "Docker");
         System.out.println("input : " + input3);
@@ -350,7 +379,7 @@ public class Program14 {
 
         System.out.println("Last Element: " + lastElement);
         System.out.println("----------------------------------------------------------");
-        System.out.println("23. Find duplicate elements from Array:");
+        System.out.println("24. Find duplicate elements from Array:");
 
         String[] arr8 = {"Java", "Spring", "Docker", "Java", "Kubernetes", "Docker"};
 
@@ -362,15 +391,27 @@ public class Program14 {
 
         System.out.println("Duplicates: " + duplicates);
         System.out.println("----------------------------------------------------------");
-        System.out.println("24. Age of Person in Year:");
+        System.out.println("25. Age of Person in Year:");
+
+        LocalDate birthDate = LocalDate.of(1995, 4, 16);  // Replace with actual DOB
+        LocalDate today = LocalDate.now();
+
+        int age = Period.between(birthDate, today).getYears();
+
+        System.out.println("Age: " + age + " years");
 
 
         System.out.println("----------------------------------------------------------");
-        System.out.println("25. Fibonacci series:");
+        System.out.println("26. Fibonacci series using java 8:");
 
-
+        int n = 10;
+        // Generate Fibonacci series using Stream
+        Stream.iterate(new int[]{0, 1}, f -> new int[]{f[1], f[0] + f[1]})
+                .limit(n)
+                .map(f -> f[0])
+                .forEach(i -> System.out.print(i + " "));
+        System.out.println("\n");
         System.out.println("----------------------------------------------------------");
-
 
     }
 
