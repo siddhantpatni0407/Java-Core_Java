@@ -14,19 +14,19 @@
  * 11. Merge two unsorted arrays into a single sorted array without duplicates
  * 12. Sum of digits of a number
  * 13. Find three max and min numbers from a list
- * 14. Find second largest number in an integer array
+ * 14. Find Second-largest number in an integer array
  * 15. Sort list of strings in increasing order of their length
  * 16. Find common elements between two arrays
  * 17. Sum and average of all elements in an array
  * 18. Reverse each word in a string
  * 19. Reverse an integer array
  * 20. Find the sum of the first 10 natural numbers
- * 21. Check if a string is palindrome
+ * 21. Palindrome String
  * 22. Find strings which start with a number
  * 23. Find last element in an array
  * 24. Find duplicate elements from an array
  * 25. Calculate the age of a person
- * 26. Generate Fibonacci series using Java 8 Stream API
+ * 26. Fibonacci Series
  */
 
 package com.sid.interview_questions;
@@ -69,6 +69,7 @@ public class Program14 {
                 .toList();
 
         System.out.println("distinctElementList: " + distinctElementList);
+
         System.out.println("----------------------------------------------------------");
         System.out.println("3. Frequency of each character in string:");
 
@@ -84,6 +85,7 @@ public class Program14 {
         // Print result
         frequencyMap1.forEach((ch, count) ->
                 System.out.println("Character '" + ch + " -> " + count + " times"));
+
         System.out.println("----------------------------------------------------------");
         System.out.println("4. Frequency of each element in the array:");
 
@@ -95,6 +97,7 @@ public class Program14 {
         // Print result
         frequencyMap2.forEach((num, count) ->
                 System.out.println("Element " + num + " -> " + count + " times"));
+
         System.out.println("----------------------------------------------------------");
         System.out.println("5. Sort the list in reverse order:");
 
@@ -106,6 +109,7 @@ public class Program14 {
                 .toList();
 
         System.out.println("Sorted in reverse order: " + sortedDescending);
+
         System.out.println("----------------------------------------------------------");
         System.out.println("6. Join List of Strings with Prefix, Suffix, and Delimiter:");
 
@@ -133,6 +137,7 @@ public class Program14 {
                 .toList();
 
         System.out.println("Multiples of 5: " + multiplesOfFive);
+
         System.out.println("----------------------------------------------------------");
         System.out.println("8. Find Maximum and Minimum values in list:");
 
@@ -149,6 +154,7 @@ public class Program14 {
         min1.ifPresent(m -> System.out.println("Minimum: " + m));
         System.out.println("Maximum: " + max2);
         System.out.println("Minimum: " + min2);
+
         System.out.println("----------------------------------------------------------");
         System.out.println("9. Merge two Unsorted array into single sorted array:");
 
@@ -163,6 +169,7 @@ public class Program14 {
                 .toList();
 
         System.out.println("Sorted Merged List: " + sortedMergedList);
+
         System.out.println("----------------------------------------------------------");
         System.out.println("10. Anagram using java 8:");
 
@@ -322,6 +329,7 @@ public class Program14 {
                 .collect(Collectors.joining(" "));
 
         System.out.println("Reversed Each Word: " + reversedWords);
+
         System.out.println("----------------------------------------------------------");
         System.out.println("19. Reverse an integer array:");
 
@@ -336,6 +344,7 @@ public class Program14 {
             System.out.print(num + " ");
         }
         System.out.println("\n");
+
         System.out.println("----------------------------------------------------------");
         System.out.println("20. Sum of first 10 natural numbers:");
 
@@ -343,7 +352,7 @@ public class Program14 {
         System.out.println("Sum of first 10 natural numbers: " + sum3);
 
         System.out.println("----------------------------------------------------------");
-        System.out.println("21. Palindrome using java 8:");
+        System.out.println("21. Palindrome String:");
 
         String input1 = "madam";
 
@@ -351,6 +360,7 @@ public class Program14 {
                 .allMatch(i -> input1.charAt(i) == input1.charAt(input1.length() - i - 1));
 
         System.out.println("Is \"" + input1 + "\" a palindrome? " + isPalindrome);
+
         System.out.println("----------------------------------------------------------");
         System.out.println("22. Find strings which starts with number:");
 
@@ -367,6 +377,7 @@ public class Program14 {
 
         System.out.println("Strings starting with a number: " + result1);
         System.out.println("Strings starting with a number: " + result2);
+
         System.out.println("----------------------------------------------------------");
         System.out.println("23. Find last element of Array:");
 
@@ -378,6 +389,7 @@ public class Program14 {
                 .orElse(null); // safer than get()
 
         System.out.println("Last Element: " + lastElement);
+
         System.out.println("----------------------------------------------------------");
         System.out.println("24. Find duplicate elements from Array:");
 
@@ -390,6 +402,7 @@ public class Program14 {
                 .collect(Collectors.toSet());
 
         System.out.println("Duplicates: " + duplicates);
+
         System.out.println("----------------------------------------------------------");
         System.out.println("25. Age of Person in Year:");
 
@@ -400,9 +413,8 @@ public class Program14 {
 
         System.out.println("Age: " + age + " years");
 
-
         System.out.println("----------------------------------------------------------");
-        System.out.println("26. Fibonacci series using java 8:");
+        System.out.println("26. Fibonacci Series:");
 
         int n = 10;
         // Generate Fibonacci series using Stream
