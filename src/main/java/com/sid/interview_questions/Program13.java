@@ -1,5 +1,5 @@
 /**
- * Program to find the highest and second-highest salary of employee using java 8.
+ * Find the highest and second-highest salary of employee using java 8.
  */
 
 package com.sid.interview_questions;
