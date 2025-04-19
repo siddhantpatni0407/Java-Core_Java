@@ -10,7 +10,7 @@
  * 7. Print multiples of 5 from a list
  * 8. Find maximum and minimum values in a list
  * 9. Merge two unsorted arrays into a single sorted array
- * 10. Check if two strings are anagrams
+ * 10. Anagram
  * 11. Merge two unsorted arrays into a single sorted array without duplicates
  * 12. Sum of digits of a number
  * 13. Find three max and min numbers from a list
@@ -171,7 +171,7 @@ public class Program14 {
         System.out.println("Sorted Merged List: " + sortedMergedList);
 
         System.out.println("----------------------------------------------------------");
-        System.out.println("10. Anagram using java 8:");
+        System.out.println("10. Anagram:");
 
         String str1 = "Listen";
         String str2 = "Silent";
