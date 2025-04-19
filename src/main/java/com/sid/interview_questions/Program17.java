@@ -23,7 +23,6 @@ public class Program17 {
 
         //or
 
-
         int sum2 = Stream.of(arr)                     // Stream<int[]>
                 .flatMapToInt(Arrays::stream)        // Convert to IntStream
                 .mapToObj(String::valueOf)           // Convert each number to String
