@@ -19,16 +19,18 @@ import java.util.stream.Collectors;
  */
 public class Program18 {
 
-    public static void main(String[] args) {
-
-        String input = "ABA{E}/KK245";
-
-        Map<Character, Long> alphabetCount = input.chars()
+    public static Map<Character, Long> countAlphabets(String input) {
+        return input.chars()
                 .mapToObj(c -> (char) c)
                 .filter(Character::isLetter)
                 .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()));
+    }
 
-        alphabetCount.forEach((k, v) -> System.out.println(k + " - " + v));
+    public static void main(String[] args) {
+
+        String input = "ABA{E}/KK245";
+        Map<Character, Long> result = countAlphabets(input);
+        result.forEach((k, v) -> System.out.println(k + " - " + v));
 
     }
 
