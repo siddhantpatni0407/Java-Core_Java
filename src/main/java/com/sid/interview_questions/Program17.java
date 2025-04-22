@@ -14,6 +14,7 @@ import java.util.stream.Stream;
 public class Program17 {
 
     public static void main(String[] args) {
+
         int[] arr = {123, 456, 789};
 
         int sum1 = Arrays.stream(arr)
