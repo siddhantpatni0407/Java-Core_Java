@@ -6,6 +6,8 @@
 package com.sid.interview_questions;
 
 
+import lombok.Setter;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -13,6 +15,7 @@ class Employee {
 
     private int empId;
     private String name;
+    @Setter
     private double salary;
 
     // Constructor
@@ -51,13 +54,27 @@ public class Program24 {
                 new Employee(104, "Chetan", 47000)
         );
 
+        // Approach - 1
         // Create a new list: increase salary and filter names starting with 'A'
-        List<Employee> filtered = employees.stream()
+        System.out.println("Approach - 1");
+        List<Employee> filtered1 = employees.stream()
                 .map(emp -> new Employee(emp.getEmpId(), emp.getName(), emp.getSalary() + 5000))
                 .filter(emp -> emp.getName().startsWith("A"))
                 .toList();
 
-        filtered.forEach(System.out::println);
+        filtered1.forEach(System.out::println);
+
+
+        // Approach - 2
+        // Using peek
+        System.out.println("Approach - 2");
+        List<Employee> filtered2 = employees.stream()
+                .peek(emp -> emp.setSalary(emp.getSalary() + 5000)) // increase salary
+                .filter(emp -> emp.getName().startsWith("A"))       // filter by name
+                .toList();
+
+        filtered2.forEach(System.out::println);
+
     }
 
 }
