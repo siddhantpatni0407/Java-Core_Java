@@ -27,6 +27,14 @@
  * 24. Find duplicate elements from an array
  * 25. Calculate the age of a person
  * 26. Fibonacci Series
+ * 27. Print the elements of an array in reverse order
+ * 28. Remove all the white spaces in a string
+ * 29. Prove that String objects are immutable
+ * 30. Count the number of words in a string
+ * 31. Reverse a string
+ * 32. Remove Leading zeros
+ * 33. Print first letter of each word in a string
+ * 34. Given a string s, find the length of the longest substring without repeating characters
  */
 
 package com.sid.interview_questions;
@@ -424,7 +432,77 @@ public class Program14 {
                 .forEach(i -> System.out.print(i + " "));
         System.out.println("\n");
         System.out.println("----------------------------------------------------------");
+        System.out.println("27. Print the elements of an array in reverse order:");
 
+        Integer[] arr9 = {1, 2, 3, 4, 5, 6};
+        System.out.println("Input array : " + Arrays.stream(arr9).toList());
+        for (int i = arr9.length - 1; i >= 0; i--) {
+            System.out.print(arr9[i] + " ");
+        }
+        System.out.println();
+        System.out.println("----------------------------------------------------------");
+        System.out.println("28. Remove all the white spaces in a string:");
+
+        String inputStr = "  Hello   world! This is   Java  ";
+        System.out.println("Input String : " + inputStr);
+        System.out.println("Output : " + inputStr.replaceAll("\\s", ""));
+
+        System.out.println("----------------------------------------------------------");
+        System.out.println("29. Prove that String objects are immutable:");
+
+        String original = "Java";
+        String modified = original.concat("Lang");
+        System.out.println("Original: " + original); // "Java"
+        System.out.println("Modified: " + modified); // "JavaLang"
+
+        System.out.println("----------------------------------------------------------");
+        System.out.println("30. Count the number of words in a string:");
+
+        System.out.println(inputStr.trim().split("\\s+").length);
+
+        System.out.println("----------------------------------------------------------");
+        System.out.println("31. Reverse a string:");
+
+        System.out.println(new StringBuilder(inputStr).reverse());
+
+        System.out.println("----------------------------------------------------------");
+        System.out.println("32. Remove Leading zeros:");
+
+        String strWithLeadingZeros = "00012345";
+        System.out.println(strWithLeadingZeros.replaceFirst("^0+(?!$)", ""));
+
+        System.out.println("----------------------------------------------------------");
+        System.out.println("33. Print first letter of each word in a string:");
+
+        String sentence = "Java is a high level programming language";
+        for (String word : sentence.trim().split("\\s+")) {
+            System.out.print(word.charAt(0));
+        }
+        System.out.println();
+
+        System.out.println("----------------------------------------------------------");
+        System.out.println("34. Given a string s, find the length of the longest substring without repeating characters:");
+
+        String s = "abcabcbb";
+        System.out.println("Input : " + s);
+        System.out.println(lengthOfLongestSubstring(s));
+
+        System.out.println("----------------------------------------------------------");
+
+    }
+
+    public static int lengthOfLongestSubstring(String s) {
+        Set<Character> set = new HashSet<>();
+        int i = 0, j = 0, max = 0;
+        while (j < s.length()) {
+            if (!set.contains(s.charAt(j))) {
+                set.add(s.charAt(j++));
+                max = Math.max(max, set.size());
+            } else {
+                set.remove(s.charAt(i++));
+            }
+        }
+        return max;
     }
 
 }
