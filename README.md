@@ -1,6 +1,6 @@
 # 📌 Java-Core_Java
 
-## **📝 Last Updated :** **`2025-04-18`**
+## **📝 Last Updated :** **`2025-04-30`**
 
 ## 🏷 Programs Details
 
@@ -71,6 +71,7 @@
 | `com.sid.interview_questions`                      | [Program20.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program20.java)                                         | Find and return all repeated characters in a given string                                                                                                                                                          | Java Stream, Map                          | ✅          |
 | `com.sid.interview_questions`                      | [Program21.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program21.java)                                         | Flatten a nested list (List of Lists of Integers) into a single list, sort all elements in descending order, and print the output                                                                                  | Stream                                    | ✅          |
 | `com.sid.interview_questions`                      | [Program22.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program22.java)                                         | Search for a target element in a row-wise and column-wise sorted 2D matrix                                                                                                                                         | while, for loop                           | ✅          |
+| `com.sid.interview_questions`                      | [Program23.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program23.java)                                         | Find common elements between two integer arrays                                                                                                                                                                    | Set, HashSet, Arrays                      | ✅          |
 | `com.sid.PACKAGE`                                  | [ABC.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/PACKAGE/ABC.java)                                                                 | ABC                                                                                                                                                                                                                | Java                                      | ✅          |
 
 ## 🏷 Project Status Legends
