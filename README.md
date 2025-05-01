@@ -1,6 +1,6 @@
 # 📌 Java-Core_Java
 
-## **📝 Last Updated :** **`2025-04-30`**
+## **📝 Last Updated :** **`2025-05-01`**
 
 ## 🏷 Programs Details
 
@@ -75,6 +75,7 @@
 | `com.sid.interview_questions`                      | [Program24.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program24.java)                                         | Increase the salary of all employees by 5000 and filter those whose names start with 'A'                                                                                                                           | Stream                                    | ✅          |
 | `com.sid.interview_questions`                      | [Program25.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program25.java)                                         | Sort a list of Employee objects first by employee name (alphabetically), and then by date of birth (DOB) using Java Stream API                                                                                     | Stream                                    | ✅          |
 | `com.sid.interview_questions`                      | [Program26.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program26.java)                                         | Find all consecutive repeating characters in a string                                                                                                                                                              | Stream                                    | ✅          |
+| `com.sid.interview_questions`                      | [Program27.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program27.java)                                         | Sort a string by the frequency of characters in decreasing order, where characters with higher frequency appear first.                                                                                             | Map, PriorityQueue, StringBuilder         | ✅          |
 | `com.sid.PACKAGE`                                  | [ABC.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/PACKAGE/ABC.java)                                                                 | ABC                                                                                                                                                                                                                | Java                                      | ✅          |
 
 ## 🏷 Project Status Legends
