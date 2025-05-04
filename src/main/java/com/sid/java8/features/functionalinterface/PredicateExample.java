@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
  * @author Siddhant Patni
  */
 public class PredicateExample {
+
     public static void main(String[] args) {
         List<String> names = Arrays.asList("Peter", "Anna", "Mike", "Xenia");
 
@@ -16,8 +17,14 @@ public class PredicateExample {
 
         List<String> result = names.stream()
                 .filter(startsWithP)
-                .collect(Collectors.toList());
+                .toList();
 
         result.forEach(System.out::println);
+
+        Predicate<String> isLong = str -> str.length() > 5;
+
+        System.out.println(isLong.test("Lambda")); // true
+        System.out.println(isLong.test("Java"));   // false
     }
+
 }
