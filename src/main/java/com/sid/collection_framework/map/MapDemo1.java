@@ -13,8 +13,8 @@ public class MapDemo1 {
         map.put("ccc", 3);
         map.put("ddd", 4);
 
-        System.out.println(map.size());
-        System.out.println(map.entrySet());
+        System.out.println("Map Size : " + map.size());
+        System.out.println("map.entrySet()" + map.entrySet());
 
     }
 }
