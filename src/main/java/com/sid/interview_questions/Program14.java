@@ -35,6 +35,7 @@
  * 32. Remove Leading zeros
  * 33. Print first letter of each word in a string
  * 34. Given a string s, find the length of the longest substring without repeating characters
+ * 35. Count each word in a String
  */
 
 package com.sid.interview_questions;
@@ -67,7 +68,7 @@ public class Program14 {
         System.out.println("Odd Numbers: " + oddNumbers);
 
         System.out.println("----------------------------------------------------------");
-        System.out.println("2. Remove duplicate element from list:");
+        System.out.println("2. Remove duplicate elements from a list:");
 
         List<Integer> duplicateElementList = Arrays.asList(1, 1, 2, 2, 2, 2, 3, 4, 5, 6, 6, 7, 8, 9);
 
@@ -79,14 +80,13 @@ public class Program14 {
         System.out.println("distinctElementList: " + distinctElementList);
 
         System.out.println("----------------------------------------------------------");
-        System.out.println("3. Frequency of each character in string:");
+        System.out.println("3. Frequency count of characters in a string:");
 
         String inputString = "This is Java development";
 
-        // Remove spaces if not needed for frequency count
-        String cleanedString = inputString.replaceAll("\\s+", "");
-
-        Map<Character, Long> frequencyMap1 = cleanedString.chars()
+        Map<Character, Long> frequencyMap1 = inputString
+                .replaceAll("\\s+", "")
+                .chars()
                 .mapToObj(c -> (char) c)
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
@@ -125,7 +125,9 @@ public class Program14 {
 
         System.out.println("input list items: " + items);
 
-        String joinedString = items.stream().collect(Collectors.joining("Delimiter", "Prefix", "Suffix"));
+        String joinedString = items
+                .stream()
+                .collect(Collectors.joining("Delimiter", "Prefix", "Suffix"));
 
         System.out.println("joined String: " + joinedString);
 
@@ -488,7 +490,17 @@ public class Program14 {
         System.out.println(lengthOfLongestSubstring(s));
 
         System.out.println("----------------------------------------------------------");
+        System.out.println("35. Count each word in a String:");
 
+        String input5 = "I love Java Programming and Java Programming is secure";
+
+        Map<String, Long> wordFrequencyMap = Arrays.stream(input5.split("\\s+"))  // Split by whitespace
+                .collect(Collectors.groupingBy(String::toLowerCase, Collectors.counting()));  // Case-insensitive count
+
+        wordFrequencyMap.forEach((word, count) ->
+                System.out.println(word + " -> " + count));
+
+        System.out.println("----------------------------------------------------------");
     }
 
     public static int lengthOfLongestSubstring(String s) {
