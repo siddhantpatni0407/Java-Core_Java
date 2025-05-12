@@ -36,6 +36,7 @@
  * 33. Print first letter of each word in a string
  * 34. Given a string s, find the length of the longest substring without repeating characters
  * 35. Count each word in a String
+ * 36. Find duplicate character from String
  */
 
 package com.sid.interview_questions;
@@ -501,6 +502,20 @@ public class Program14 {
                 System.out.println(word + " -> " + count));
 
         System.out.println("----------------------------------------------------------");
+        System.out.println("36. Find duplicate character from String:");
+
+        String input6 = "Siddhant";
+
+        input6
+                .chars()
+                .mapToObj(c -> (char) c)
+                .collect(Collectors.groupingBy(c -> c, Collectors.counting()))
+                .forEach((k, v) -> {
+                    if (v > 1) System.out.println("Character: " + k + ", Count: " + v);
+                });
+
+        System.out.println("----------------------------------------------------------");
+
     }
 
     public static int lengthOfLongestSubstring(String s) {
