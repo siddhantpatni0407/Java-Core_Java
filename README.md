@@ -1,6 +1,6 @@
 # 📌 Java-Core_Java
 
-## **📝 Last Updated :** **`2025-05-06`**
+## **📝 Last Updated :** **`2025-05-23`**
 
 ## 🏷 Programs Details
 
@@ -80,6 +80,7 @@
 | `com.sid.interview_questions`                      | [Program29.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program29.java)                                         | Print the level order traversal of a binary tree, displaying each level on a new line.                                                                                                                             | Queue, LinkedList                         | ✅          |
 | `com.sid.interview_questions`                      | [Program30.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program30.java)                                         | Print the positions (indices) where each word/string occurs in the list of String, ignoring case sensitivity.                                                                                                      | Stream                                    | ✅          |
 | `com.sid.interview_questions`                      | [Program31.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program31.java)                                         | Given a set of distinct integers, find all possible subsets (the power set).                                                                                                                                       | IntStream, Stream, Backtracking           | ✅          |
+| `com.sid.interview_questions`                      | [Program32.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/interview_questions/Program32.java)                                         | Given an array of temperatures, return an array where each element tells how many days to wait for a warmer temperature; if no such day exists, set it to 0.                                                       | Loops. Deque                              | ✅          |
 | `com.sid.PACKAGE`                                  | [ABC.java](https://github.com/siddhantpatni0407/Java-Core_Java/blob/master/src/main/java/com/sid/PACKAGE/ABC.java)                                                                 | ABC                                                                                                                                                                                                                | Java                                      | ✅          |
 
 ## 🏷 Project Status Legends
