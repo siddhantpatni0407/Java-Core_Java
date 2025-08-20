@@ -1,59 +1,85 @@
 /**
- * Given an array of integer temperatures represents the daily temperatures, return an array answer such that answer[i]
- * is the number of days you have to wait after the ith day to get a warmer temperature. If there is no future day for which
- * this is possible, keep answer[i] == 0 instead.
- * Input:temperatures = [73,76,75,71,69,72,76,73]
- * Output:[1,0,4,2,1,1,0,0]
+ * Given an array of daily temperatures, it returns an array where each element
+ * indicates the number of days until a warmer temperature. If no warmer day exists, the value is 0.
+ *
+ * <p>Example:
+ * Input: temperatures = [73,76,75,71,69,72,76,73]
+ * Output: [1,0,4,2,1,1,0,0]
  */
-
 package com.sid.interview_questions;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-public class Program32 {
+/**
+ * Utility class providing solutions to the "Daily Temperatures" problem.
+ * Given an array of daily temperatures, returns an array where each element
+ * indicates the number of days until a warmer temperature. If no warmer day exists, the value is 0.
+ *
+ * <p>Example:
+ * Input: temperatures = [73,76,75,71,69,72,76,73]
+ * Output: [1,0,4,2,1,1,0,0]
+ */
+public final class Program32 {
 
-    // Approach 1: Brute Force - Time: O(n^2)
-    public static int[] dailyTemperaturesBruteForce(int[] temps) {
-        int[] answer = new int[temps.length];
-        for (int i = 0; i < temps.length; i++) {
-            for (int j = i + 1; j < temps.length; j++) {
-                if (temps[j] > temps[i]) {
-                    answer[i] = j - i;
+    // Prevent instantiation
+    private Program32() {
+    }
+
+    /**
+     * Brute force approach: For each day, checks all subsequent days to find the next warmer temperature.
+     *
+     * @param temperatures array of daily temperatures
+     * @return array where each element is the number of days until a warmer temperature
+     */
+    public static int[] dailyTemperaturesBruteForce(int[] temperatures) {
+        int n = temperatures.length;
+        int[] result = new int[n];
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (temperatures[j] > temperatures[i]) {
+                    result[i] = j - i;
                     break;
                 }
             }
         }
-        return answer;
+        return result;
     }
 
-    // Approach 2: Monotonic Stack - Time: O(n)
-    public static int[] dailyTemperaturesStack(int[] temps) {
-        int[] answer = new int[temps.length];
-        Deque<Integer> stack = new ArrayDeque<>(); // stack to keep indices
+    /**
+     * Monotonic stack approach: Uses a stack to keep track of indices with unresolved warmer days.
+     *
+     * @param temperatures array of daily temperatures
+     * @return array where each element is the number of days until a warmer temperature
+     */
+    public static int[] dailyTemperaturesStack(int[] temperatures) {
+        int n = temperatures.length;
+        int[] result = new int[n];
+        Deque<Integer> stack = new ArrayDeque<>();
 
-        for (int i = 0; i < temps.length; i++) {
-            while (!stack.isEmpty() && temps[i] > temps[stack.peek()]) {
+        for (int i = 0; i < n; i++) {
+            while (!stack.isEmpty() && temperatures[i] > temperatures[stack.peek()]) {
                 int prevIndex = stack.pop();
-                answer[prevIndex] = i - prevIndex;
+                result[prevIndex] = i - prevIndex;
             }
             stack.push(i);
         }
-
-        return answer;
+        return result;
     }
 
+    /**
+     * Main method to demonstrate both approaches for the daily temperatures problem.
+     *
+     * @param args command line arguments (not used)
+     */
     public static void main(String[] args) {
         int[] temperatures = {73, 76, 75, 71, 69, 72, 76, 73};
 
-        // Call Brute Force
-        int[] result1 = dailyTemperaturesBruteForce(temperatures);
-        System.out.println("Brute Force Result: " + Arrays.toString(result1));
+        int[] bruteForceResult = dailyTemperaturesBruteForce(temperatures);
+        System.out.println("Brute Force Result: " + Arrays.toString(bruteForceResult));
 
-        // Call Stack Approach
-        int[] result2 = dailyTemperaturesStack(temperatures);
-        System.out.println("Stack-Based Result: " + Arrays.toString(result2));
+        int[] stackResult = dailyTemperaturesStack(temperatures);
+        System.out.println("Stack-Based Result: " + Arrays.toString(stackResult));
     }
-
 }
